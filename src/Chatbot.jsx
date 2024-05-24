@@ -158,7 +158,7 @@ function Chatbot() {
                             <div
                                 id="loadin-boxes"
                                 className={
-                                    "bg-[#ffc300] overflow-hidden self-start rounded-tl-none p-6  rounded-lg flex justify-center items-center text-sm my-2"
+                                    "bg-[#ffc300] overflow-hidden self-start rounded-tl-none p-4 px-8  rounded-lg flex justify-center items-center text-sm my-2"
                                 }
                             >
                                 <div className="dot-typing"></div>
