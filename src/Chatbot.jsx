@@ -66,7 +66,7 @@ function Chatbot() {
     async function sendMessageToServer(chat) {
         setIsLoading(true);
         try {
-            const response = await axios.post("http://localhost:8000", {
+            const response = await axios.post("https://freebot-server.vercel.app/", {
                 headers: {
                     "x-api-key":
                         "pleasedontuseit-iwillnotbeableto-keepitfreethisway",
